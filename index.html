@@ -3,7 +3,7 @@
 <title>Staerfeldt menu</title>
 <script type="module">
   import luxon from 'https://cdn.skypack.dev/luxon';
-  const weekNumber = DateTime.now().weekNumber;
+  const weekNumber = luxon.DateTime.now().weekNumber;
   window.location.replace(`http://menu.staerfeldts.catersys.dk/menu-uge-${weekNumber}/`);
 </script>
 </head>
